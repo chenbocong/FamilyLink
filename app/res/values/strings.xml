@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Heart²</string>
+	
+    <string name="settings">Settings</string>
+
+    <string name="unknown">unknown</string>
+    <string name="undefined">undefined</string>
+
+    <!-- menu -->
+    <string name="retransmit">Retransmit</string>
+    <string name="delete">Delete</string>
+
+    <!-- SmsStatusReceiver -->
+    <string name="sms_sent_notification">Sent a sms message to %s</string>
+    <string name="sms_delivered_notification">Have delivered a sms message to %s</string>
+    <string name="failed_to_send_because_of_radio_off">Because of radio off, failed to send message.</string>
+    <string name="failed_to_send_because_of_generic_failure">Because of generic failure(error code:%s), failed to send message. Please contact your service provider.</string>
+
+    <!-- Main Menu -->
+    <string name="have_started_periodically_contact">Have started periodically contact</string>
+    <string name="have_stopt_periodically_contact">Have stopt periodically contact</string>
+    <string name="locate_service">Locate Service</string>
+    <string name="locate_frequency">Locate Frequency</string>
+    <string name="fall_down_alarm_service">Fall Dow Alarm</string>
+    <string name="seek_help">Seek Help</string>
+    <string name="call">Call</string>
+    <string name="outbox">Outbox</string>
+    <string name="response_message">Inbox</string>
+    <string name="role_setting">Role</string>
+    <string name="contacts_setting">Contacts</string>
+    <!-- Contact -->
+    <string name="contact">Contact</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="name_label">Name</string>
+    <string name="phone_label">Phone</string>
+    <!-- Messages -->
+    <string name="no_message_record">No Message Record</string>
+    <string name="checked_one_message">One message</string>
+    <string name="checked_n_messages">%d messages</string>
+    <string name="prompt_one_retransmission_at_a_time">Please do this after last retransmission finished</string>
+    <string name="prompt_delete_messages_successfully">Deleted %d message(s) successfully</string>
+
+    <string name="me">Me</string>
+    <string name="contact_formatter" translatable="false">%s(%s)</string>
+    <string name="illegal_code">Illegal Code: %d</string>
+    <string name="inform">inform</string>
+    <string name="command">command</string>
+    <string name="respond">respond</string>
+    <string name="pulse">pulse</string>
+    <string name="urgent">urgent</string>
+    <string name="locate_now">locate now</string>
+
+    <string name="type">Type</string>
+    <string name="content">Content</string>
+    <string name="position_of_sender">Sender\'s Position</string>
+
+    <string name="send_status_formatter" translatable="false">(%s)</string>
+    <string name="sending">sending</string>
+    <string name="sent">sent</string>
+    <string name="delivered">delivered</string>
+    <string name="failed_to_send">failed to send</string>
+
+    <!-- StatusActivity -->
+    <string name="status_activity_label">Status</string>
+    <!-- AlarmCountdownActivity -->
+    <string name="fall_down_alarm">Fall Down Alarm</string>
+    <string name="counting_down">Counting down</string>
+    <string name="touch_again_to_cancel">Please touch again to cancel alarm.</string>
+    <string name="tips_touch_twice_to_cancel">Tips: You can touch twice to cancel alarm.</string>
+    <!-- AlarmActivity.java -->
+    <string name="alarm">Alarm</string>
+    <string name="seek_help_alarm">Seek Help Alarm</string>
+    <string name="seek_help_alarm_notification"><b>%s</b> is seeking help at:</string>
+    <string name="fall_down_alarm_notification"><b>%s</b> fell down at:</string>
+    <string name="stop_alarm">Stop Alarm</string>
+    <string name="call_to_somebody">Call to %s</string>
+    <string name="call_back">Call back</string>
+    <string name="navigate_to_this_position">Navigate to this position</string>
+
+    <!-- MapActivity -->
+    <string name="locate_result">Request Locate Result</string>
+
+    <!-- InitialSetupDialogFragment -->
+    <string name="initial_Setup">Initial Setup</string>
+    <string name="role_label">You are </string>
+    <string name="initial_setup_dialog_contact_name_label">Contact(%s) Name</string>
+    <string name="initial_setup_dialog_contact_phone_label">Contact(%s) Phone</string>
+    <!-- NoContactInformationDialogFragment -->
+    <string name="no_contact_information">No Contact Information</string>
+    <string name="no_contact_information_message">You haven\'t set contact\'s phone number. Would you like to set it now?</string>
+
+    <!-- network -->
+    <string name="no_connection_title">No Connection</string>
+    <string name="no_connection_message">Whether to open the network Settings now</string>
+
+    <!-- LocationService -->
+    <string name="unconnection">No Connection</string>
+
+    <!-- SmsReceiverService -->
+    <string name="SMS_receiver_service_title">FamilyLink</string>
+    <string name="SMS_receiver_service_content">Reception of family messages is running</string>
+
+    <!-- navigation -->
+    <string name="no_maps_app_title">Install GOOGLE MAPS Application</string>
+    <string name="no_maps_app_message">Whether to open android market to install GOOGLE MAPS now?</string>
+
+</resources>

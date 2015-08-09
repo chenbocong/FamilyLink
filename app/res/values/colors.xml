@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- textColor -->
+    <color name="default_text_color">#000</color>
+    <!-- 默认日志配色方案 -->
+    <color name="urgent">#1f00</color>
+    <color name="respond">#20f0</color>
+    <color name="command">#3ff0</color>
+
+    <!-- custom_button -->
+    <color name="button_stroke">#000</color>
+    <color name="green1">#a0c038</color>
+    <color name="green2">#859a43</color>
+    <color name="red1">#ff6666</color>
+    <color name="red2">#bf6969</color>
+
+</resources>
